@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    background-color: mediumseagreen;
+    display: grid;
+    grid-template-rows: 100px 2fr 100px;
+}
+
+header {
+    background-color: wheat;
+}
+
+main {
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.match {
+    background-color: #C1666B;
+}
+
+.team {
+    background-color: #48a9a6;
+}
+
+.bench {
+    background-color: #4281A4;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.benchlist {
+    display: grid;
+    grid-row-gap: 10px;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#manager {
+    list-style: none;
+    background-color: khaki;
+}
+
+.sub {
+    list-style: none;
+    background-color: lightblue;
+}
+
+footer {
+    background-color: wheat;
+}
